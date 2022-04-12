@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+
+   
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <img src="images/Batch.jpg" alt="">
+
+             <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                     <li><a href="index.html">HOME</a></li>
+                
+                     <li><a href="courses.html">OUR DEPARTMENTS</a></li>
+                     
+                     <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+             </div>
+             <i class="fas fa-bars" onclick="showMenu()"></i> 
+        </nav>
+
+        <div class="text-box">
+            <h2>Saint Francis Senior Secondary School </h2>
+            <p>Boys of Saint Francis School, keep the banner high.</p>
+            
+            <a class="hero-btn" href="know more.html">Visit Us To Know More</a>
+        </div>
+    </section>
+
+    <!--------course-------->
+    <section class="courses">
+        <h1>Courses We Offer</h1>
+        <p>We have three different departments, which are: Science, Arts, and Commercial.</p>
+
+        <div class="row">
+            <div class="courses-col">
+                <h2>SCIENCE</i></h2>
+                <p>Our School encourages students that are willing to learn about Science and at the same time want to pursue their careers in different science courses.</p>
+            </div>
+
+            <div class="courses-col">
+                <h2>ARTS</h2>
+                <p>Our School encourages students that are willing to learn about Arts courses and topics, this department also encourage students to pursue their careers in arts courses like; Law, journalisms,and so on.</p>
+            </div>
+
+            <div class="courses-col">
+                <h2>BUSINESS</h2>
+                <p>Our School encourages students that are willing to learn about Business strategies and policies.  The business department traned students to become Accountant, business consultant, Managers, and so on.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+<!--------- Global Campus---------->
+
+<section class="Compound">
+    <h1>Our school Compound</h1>
+    <p>Our school compound is one of the cleanest, most convienient, and most condusive environment that could around Sierre Leone.</p>
+
+    <div class="row">
+        <div class="compound-col">
+            <img src="images/School Building.jpg" alt="">
+          
+ </div>       
+        <div class="compound-col">
+            <img src="images/Makeni-2.jpg" alt="">
+    
+        </div>       
+               
+    </div>
+
+</section>
+
+<!------- Facilities --------->
+
+<section class="facilities">
+    <h1>Our Facilities</h1>
+    <p>Our facilities are something that you would always loved.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/laboratary.jpg" alt="">
+            <h2>World Class Library</h2>
+            <p>One of the most convinient for learning during lonely hours</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/Resource Center.jpg" alt="">
+            <h2>Largest Resource Center </h2>
+            <p>The largest in the northern provinvce</p>
+        </div>
+        <div class="facilities-col">
+            <img src="images/cafeteria.png" alt="">
+        
+            <h2> Delicious food we serve with 24 hour services </h2>
+        </div>
+    </div>
+</section>
+
+<!-- Tstimonials -->
+<section class="testimonials">
+    <h1>What our Student Says</h1>
+    <p>We always provide the best that our students wished.</p>
+
+    <div class="row">
+        <div class="testimonials-col">
+          <img src="images/MINS.jpg" alt="">
+             <div>
+                  <p>The visit of the Minister of Education to the school.</p>
+                  <h2>Christine Berkley</h2>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+            </div>
+        </div>
+
+        <div class="testimonials-col">
+            <img src="images/Teacher.jpg" alt="">
+               <div>
+                    <p>One of the late teachers of the school, the man that have contributed greately for the school.</p>
+                    <h2>David Byer</h2>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+              </div>
+          </div>
+    </div>
+</section>
+
+<!-- Call to Action -->
+<section class="cta"> 
+    <h1>Enroll For Our Various Online Classes <br> Anywhere From The World</h1>
+    <a class="hero-btn" href="contact.html">CONTACT US</a>
+
+</section>
+
+<section class="footer">
+    <h1>About Us</h1>
+    <p>Boys of Saint Francis school,we are the best School in Makeni,<b>The school of "Languages"</b><br>The pride of the Northbr
+        Our Motto is <b>"Keep the banner high"</b><br>As a Franciscan, great things are expected of you, and you should never disappoint them.!</p>
+    <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+    </div>
+
+</section>
+
+
+
+<!-- JavaScript to toggle menu option -->
+<script>
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu() {
+      navLinks.style.right = "0";
+  }
+  function hideMenu() {
+    navLinks.style.right = "-200px";
+  }
+</script>    
+</body>
+</html>
