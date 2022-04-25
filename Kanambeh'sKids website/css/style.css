@@ -1,0 +1,79 @@
+#Boxes {
+    margin-top: 20px;
+}
+
+#Boxes .Box1 {
+    float: left;
+    width: 30px;
+    padding: 9%;
+}
+
+
+
+.showcase h1 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+#Boxes .Box {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+
+
+body {
+    background-image: url(image/Little\ girl.jpg);
+    background-size: cover;
+    padding: 50px;
+}
+
+h1 {
+    text-align: left;
+}
+
+section {
+    width: 20%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 4%;
+    padding-left: 4%;
+}
+
+section {
+    padding-left: 4px;
+    border-radius: 5%;
+}
+
+section h1 {
+    color: #fff;
+    line-height: 50px;
+    background-color: rgb(20, 216, 216);
+    margin: 4%;
+}
+
+section p {
+    color: rgb(255, 255, 255);
+    background-color: rgb(248, 184, 8);
+}
+
+
+
+button {
+    background-color: rgb(184, 18, 12);
+    color: #ff8800;
+    border: 1px solid #ff8800;
+}
+
+h1 {
+    text-align: left;
+    color: rebeccapurple;
+}
+
+p {
+    text-align: center;
+    text-decoration: none;
+    color: rebeccapurple;
+}
